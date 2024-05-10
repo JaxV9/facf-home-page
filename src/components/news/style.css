@@ -51,6 +51,7 @@
     .planningContainer {
         grid-template-columns: repeat(2, 1fr);
     }
+
 }
 
 @media (max-width: 500px) {
@@ -58,4 +59,14 @@
     .planningContainer {
         display: block;
     }
+
+    .titleAndBtnContainer {
+        display: grid;
+        grid-template-columns: none;
+        grid-template-rows: 1fr 1fr;
+        width: 100%;
+        margin-bottom: 28px;
+        row-gap: 16px;
+    }
+
 }
