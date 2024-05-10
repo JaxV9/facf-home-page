@@ -56,3 +56,15 @@
     display: block;
     transform: translateX(75px);
 }
+
+@media (max-width: 500px) {
+
+    .titleHero>span:first-child {
+        margin-left: 0px;
+    }
+    
+    .titleHero>span:nth-child(2) {
+        transform: translateX(0px);
+    }
+
+}

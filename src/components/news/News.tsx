@@ -32,7 +32,7 @@ export const News = () => {
                     <BlockPlanning planningProps={"rencontres"} colorProps={"#FF8B0F"} monthProps={"mai 2021"}>
                         <p>27eme édition des rencontres cinématographiques de Dijon</p>
                     </BlockPlanning>
-                    <BlockPlanning monthProps={"avril 2021"} />
+                    <BlockPlanning monthProps={"mai 2021"} />
                     <BigNews imageProps={bigNewsImage2} planningProps={"festival"} colorProps={"green"} monthProps={"mars 2021"} light={false}>
                         <p>Deauville : le 45eme Festival du cinéma américain</p>
                     </BigNews>
