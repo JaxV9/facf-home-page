@@ -1,0 +1,23 @@
+.ctaUi {
+    background-color: #ffffff00;
+    border: #FFFFFF solid 1px;
+    color: #FFFFFF;
+    padding: 16px 28px;
+    text-transform: uppercase;
+    display: block;
+    cursor: pointer;
+    font-size: 12px;
+    margin-left: auto;
+    margin-top: auto;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    transition: all ease 0.2s;
+}
+
+.ctaUi:hover {
+    background-color: #FFFFFF;
+    border: #FFFFFF solid 1px;
+    color: #080808;
+    transition: all ease 0.2s;
+}

@@ -1,0 +1,44 @@
+
+.blockPlanningContainer {
+    border: 0.2px solid #ffffff85;
+    padding: 16px;
+    overflow: hidden;
+}
+
+.planningPropsContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-transform: uppercase;
+    display: block;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+    display: flex;
+}
+
+.planningTagColor {
+    width: 28px;
+    height: 15px;
+    margin-right: 8px;
+}
+
+.planningDateProps {
+    display: block;
+    margin-left: auto;
+    opacity: 0.5;
+}
+
+.planningDescr {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+}
+
+@media (max-width: 900px) {
+    .planningDescr, .planningDescrLight {
+        font-size: 100%;
+    }
+}

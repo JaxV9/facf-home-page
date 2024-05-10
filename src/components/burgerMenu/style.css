@@ -1,0 +1,24 @@
+.burgerMenuContainer {
+    width: 95%;
+    position: absolute;
+    top: 28px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.burgerMenu {
+    height: 28px;
+    width: 32px;
+    display: grid;
+    grid-template-rows: auto;
+    row-gap: 4px;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.burgerMenuLine {
+    height: 3px;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+}

@@ -1,0 +1,58 @@
+.heroSection {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.backgroundHero {
+    width: 100%;
+    height: 90%;
+    background-image: url('../../assets/background-hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.contentHeroContainer {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.titleHero {
+    width: 100%;
+    margin: auto;
+    padding: 0;
+
+}
+
+.titleHero > span {
+    height: 15vw;
+    display: block;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 20vw;
+    font-style: normal;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+.titleHero>span:first-child {
+    -webkit-text-stroke: 3px #FFFFFF;
+    color: #ffffff00;
+    margin-right: auto;
+    margin-left: -20px;
+}
+
+.titleHero>span:nth-child(2) {
+    width: fit-content;
+    display: block;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 20vw;
+    font-style: normal;
+    color: #FFFFFF;
+    margin-left: auto;
+    display: block;
+    transform: translateX(75px);
+}
