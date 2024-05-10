@@ -3,6 +3,7 @@
     width: 95%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 75px;
 }
 
 .titleAndBtnContainer {
@@ -16,7 +17,6 @@
     position: relative;
 }
 
-
 .planningContainer {
     display: grid;
     height: 80%;
@@ -28,16 +28,6 @@
     background-color: #f0f0f0;
     border: 2px solid white;
 }
-.block.large {
-    grid-column-end: span 2;
-    grid-row-end: span 2;
-}
-.block {
-    width: calc(100% - 4px); /* 4px = 2 * 2px (border width) */
-    height: calc(100% - 4px); /* 4px = 2 * 2px (border width) */
-}
-
-
 
 @media (max-width: 900px) {
     
